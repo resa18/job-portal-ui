@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #4a76ee;
+  color: #ecf0f1;
+  padding: 10px;
+  /* text-align: center; */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.featured-jobs,
+.recent-jobs {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #4a76ee;
+  color: #bdc3c7; 
+  padding: 20px;
+  text-align: center;
+}
+
+/* Example CSS for styling the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  padding: 50px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

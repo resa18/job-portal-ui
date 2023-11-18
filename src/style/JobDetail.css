@@ -1,0 +1,40 @@
+.job-detail-container {
+    margin: auto;
+    padding: 50px;
+    outline: auto;
+    outline-color: grey;
+  }
+  
+  .job-layout {
+    display: flex;
+  }
+  
+  .job-description {
+    flex: 0 0 60%; /* 60% width, don't grow or shrink */
+    padding-right: 20px; /* Adjust spacing between description and info */
+  }
+  
+  .job-info {
+    flex: 0 0 40%; /* 40% width, don't grow or shrink */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Add spacing between the logo and how to apply */
+  }
+  .job-logo-container {
+    background-color: #ccc; /* Grey background color for the logo container */
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: auto;
+    outline-color: grey;
+  }
+  
+  .how-to-apply-container {
+    background-color: #ffecb3; /* Light yellow background color for the "How to Apply" container */
+    padding: 10px;
+    outline: auto;
+    outline-color: grey;
+  }
+  
